@@ -4,7 +4,7 @@ rhcrypto_banner = pyfiglet.figlet_format("RHCrypto")
 print(rhcrypto_banner)
 print("Note: encrypting script\n")
 print("space or symbols on you keywboard like (_,!,|,etc) won't work. ")
-cypher= list(input("Enter your secret ONC(once time cypher) HERE :").lower())
+cypher= list(input("Enter your secret ONC(once time cypher) HERE : ").lower())
 msg = list(input(f"Enter your {len(cypher)} encrypted msg here : ").lower())
 output = [] 
 output.append(msg[0:len(cypher)]) 
