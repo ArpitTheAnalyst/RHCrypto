@@ -1,4 +1,4 @@
-# RHCRYPTO
+# RHCrypto
 RHCrypto is a unbreakable encryption type made with the formula kiss(keep it simple sweety). it encrypts your message with one time way or cypher. In this way this message have trillions of combinations that seems impossible to break without cypher text
 
 ## USES
@@ -8,10 +8,10 @@ One can use it the way of creating a file of some random text sententence and na
  so the receiver knows which cypher from which text msg...
 ### REQUIREMENTS
 
-PYFIGLET 
-
 ```
-Give examples
+PYFIGLET 
+For Windows https://files.pythonhosted.org/packages/f9/02/48293654fb2e4fdeb4d927f00a380230a832744b6c9af757373a72d018d1/pyfiglet-0.8.post1.tar.gz
+For Linux pip install pyfiglet
 ```
 
 ### HOW TO USE IT ?
@@ -19,7 +19,7 @@ Give examples
 RHCrypto is as easy as login to github...
 
 
-##ENCRYPTING
+## ENCRYPTING
 
 + run encrypter.py file first
 
@@ -30,7 +30,7 @@ RHCrypto is as easy as login to github...
 
 + voila completed....copy your message and send it
 
-##DECRYPTING
+## DECRYPTING
 
 + run decrypter.py file first
 
