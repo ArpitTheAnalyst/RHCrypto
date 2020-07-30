@@ -18,10 +18,18 @@ For Linux pip install pyfiglet
 
 RHCrypto is as easy as login to github...
 
+## Installation and Running
+```
+1. git clone https://github.com/rockyhandsm2k/RHCrypto.git 
+2. cd RHCrypto/
+3. pip install -r requirements.txt
+4. python encrypter.py // for encryption
+5. python decryption.py // for decryption
+```
 
 ## ENCRYPTING
 
-+ run encrypter.py file first
++ Run encrypter.py file first
 
 + just final up your one time random cypher
 
@@ -32,7 +40,7 @@ RHCrypto is as easy as login to github...
 
 ## DECRYPTING
 
-+ run decrypter.py file first
++ Run decrypter.py file first
 
 + write the one time cypher used
 + enter encrypted message
