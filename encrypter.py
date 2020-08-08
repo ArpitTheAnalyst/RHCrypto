@@ -5,9 +5,7 @@ print(rhcrypto_banner)
 print("Note: encrypting script\n")
 print("space or symbols on you keywboard like (_,!,|,etc) won't work. ")
 cypher= list(input("Enter your secret ONC(once time cypher) HERE :").lower())
-msg = list(input(f"Enter your {len(cypher)} encrypted msg here : ").lower())
-output = [] 
-output.append(msg[0:len(cypher)]) 
+msg = list(input(f"Enter your {len(cypher)} encrypted msg here : ").lower()) 
 alphamsg=[] 
 alphacypher=[]
 def conversion():##this function convert alphabets to numbers
@@ -21,7 +19,7 @@ def conversion():##this function convert alphabets to numbers
 conversion()
 
 sumenc =[]
-def sumlist():#defining a function for adding the dicts to make a single dict with added value
+def sumlist():#defining a function for adding the lists to make a single list with added value
     for key in range(0,len(alphacypher)):
         sumenc.append(alphamsg[key]+alphacypher[key])
 sumlist()
