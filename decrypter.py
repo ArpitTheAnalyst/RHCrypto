@@ -7,14 +7,15 @@ encmsg = list(input(f"Enter your {len(cypher)} encrypted msg here : ").lower())
 cypher2 = []
 encmsg2 =[]
 
-def c2n():## this function convert chr to number for further conversion
+def c2N
+():## this function convert chr to number for further conversion
     for key in cypher[0:len(cypher)]:
         a =ord(key) -96
         cypher2.append(a)
     for key in encmsg[0:len(cypher)]:
         a =ord(key) -96
         encmsg2.append(a)
-c2n()
+c2N()
 sumdec =[]## converted enc msg
 def reverse():##this function add 26 to the number which were sub 26 while encrypting
     for i in range(len(encmsg2)):
