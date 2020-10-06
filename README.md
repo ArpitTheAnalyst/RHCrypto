@@ -1,11 +1,16 @@
+<p align="center">
+        <img src="https://i.ibb.co/P6kb1fm/rhcrypto.jpg" width="600px">
+</p>
+
 # RHCrypto
 RHCrypto is a unbreakable encryption type made with the formula kiss(keep it simple sweety). it encrypts your message with one time way or cypher. In this way this message have trillions of combinations that seems impossible to break without cypher text
 
 ## USES
 
-One can use it the way of creating a file of some random text sententence and name it 1-10 or so onn 
- keeping the list away from other as a password one can send msg to anyone with the name as the number of cypher used...like 9 
- so the receiver knows which cypher from which text msg...
+One can use it in the way of creating a file of some random text sentence and name it 1-10 or so onn.
+send the list to the receiver , and keeping it hidden from everyone else
+once the messge is encrypted with any cypher b/w 1-10 , receiver knows what is the first cypher for decryption process
+
 ### REQUIREMENTS
 
 ```
@@ -16,7 +21,7 @@ For Linux pip install pyfiglet
 
 ### HOW TO USE IT ?
 
-RHCrypto is as easy as login to github...
+RHCrypto is as easy as logging inn to github...
 
 ## Installation and Running
 ```
